@@ -9,7 +9,7 @@ export function Home() {
     <>
       <div className="  h-[100vh] flex text-primary px-4 lg:flex-row flex-col-reverse md:items-start lg:items-center justify-center">
         <div className="flex flex-col lg:w-2/3 w-full">
-          <div className=" pointer-events-none flex flex-row font-black md:text-[8em] max-xs:text-[2em] lg:text-[10em]">
+          <div className=" pointer-events-none flex flex-row font-black md:text-[7em] sm:text-[5em] max-xs:text-[2em] lg:text-[10em]">
             <motion.span
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}

@@ -14,5 +14,5 @@
 
 /* Screen Breakpoints */
 @theme {
-  --breakpoint-xs: 480px;
+  --breakpoint-xs: 640px;
 }
