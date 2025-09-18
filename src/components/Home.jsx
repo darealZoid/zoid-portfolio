@@ -106,9 +106,8 @@ export function Home() {
               transition={{ duration: 2, ease: "easeOut" }}
               className=" pointer-events-none"
             >
-              <p className=" font-bold text-secondary">
-                {/* IT Graduate 2025 • Tech Savvy • Fast Learner */}
-                i love you, kwenejuy! ❤️
+              <p className=" font-bold max-xs:text-sm text-secondary">
+                IT Graduate 2025 • Tech Savvy • Fast Learner
               </p>
             </motion.div>
           </div>
