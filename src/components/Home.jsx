@@ -9,7 +9,7 @@ export function Home() {
     <>
       <div className="  h-[100vh] flex text-primary px-4 lg:flex-row flex-col-reverse md:items-start lg:items-center justify-center">
         <div className="flex flex-col lg:w-2/3 w-full">
-          <div className=" pointer-events-none flex flex-row font-black md:text-[8em] xs:text-[4em] lg:text-[10em]">
+          <div className=" pointer-events-none flex flex-row font-black md:text-[8em] max-xs:text-[2em] lg:text-[10em]">
             <motion.span
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
@@ -62,7 +62,7 @@ export function Home() {
               className=" flex lg:flex-row flex-col gap-4"
             >
               <div className="pointer-events-none">
-                <p className=" text-2xl font-bold">— Jade Dareal R Agduma</p>
+                <p className=" text-2xl max-xs:text-sm font-bold">— Jade Dareal R Agduma</p>
               </div>
               {/* Socials */}
               <div className=" flex items-center flex-row gap-2 text-sm">
@@ -117,12 +117,12 @@ export function Home() {
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.4, ease: "easeOut" }}
-          className=" flex items-center justify-center md:w-full xs:w-2/3 sm:w-1/3 lg:w-2/3"
+          className=" flex items-center justify-center md:w-full max-xs:w-full sm:w-1/3 lg:w-2/3"
         >
           <img
             src={profile}
             alt="profile"
-            className="border shadow-lg hover:shadow-2xl duration-200 ease-in-out transition-all rounded-lg lg:w-full md:w-1/2 lg:rounded-full border-primary"
+            className="border shadow-lg max-sm:w-2/3 hover:shadow-2xl duration-200 ease-in-out transition-all rounded-lg lg:w-full md:w-1/2 lg:rounded-full border-primary"
           />
         </motion.div>
       </div>
