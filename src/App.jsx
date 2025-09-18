@@ -4,8 +4,7 @@ function App() {
 
   return (
     <>
-      {/* <Home /> */}
-      <p>hi</p>
+      <Home />
     </>
   )
 }

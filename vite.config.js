@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   base: "/zoid-portfolio/",
   plugins: [
+    react(),
     tailwindcss(),
   ],
 })

@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+/* Colors */
+@theme {
+  --color-primary: #222222;
+  --color-secondary: #7b7b7b;
+  --color-tertiary: #f8f8f8;
+}
+
+/* Fonts */
+@theme {
+  --font-lato: "Lato";
+}
+
+/* Screen Breakpoints */
+@theme {
+  --breakpoint-xs: 480px;
+}
